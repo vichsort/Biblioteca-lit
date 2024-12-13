@@ -27,15 +27,6 @@ export class cardHover extends LitElement {
         }
     `;
 
-    static properties = {
-        nome: {},
-    }
-
-    constructor() {
-        super();
-        this.nome = 'tico'
-    }
-
     render() {
         return html`
             <div class="card">

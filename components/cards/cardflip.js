@@ -40,32 +40,20 @@ export class cardFlip extends LitElement {
         height: 100%;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
-        border: 1px solid coral;
+        box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);;
         border-radius: 1rem;
         }
 
         .flip-card-front {
-        background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-            rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
-        color: coral;
+        background-color: #1a1a1a;
         }
 
         .flip-card-back {
-        background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-            bisque 40%, rgb(255, 185, 160) 78%);
-        color: white;
+        background-color: white;
+        color: black;
         transform: rotateY(180deg);
         }
     `;
-
-    static properties = {
-        nome: {},
-    }
-
-    constructor() {
-        super();
-        this.nome = 'tico'
-    }
 
     render() {
         return html`
