@@ -16,5 +16,5 @@ main {
 
 .component {
     padding: 3rem;
-    background-color: green;
+    border: 2px solid white;
 }
