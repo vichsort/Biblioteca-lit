@@ -1,4 +1,8 @@
 {
+  "name": "web-components",
+  "version": "1.0.0",
+  "description": "A Web Component sneak-peak",
+  "main": "main.js",
   "scripts": {
     "build": "vite build",
     "vite": "vite"
