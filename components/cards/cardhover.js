@@ -45,5 +45,3 @@ export class cardHover extends LitElement {
         `
     }
 };
-
-window.customElements.define('card-hover', cardHover);

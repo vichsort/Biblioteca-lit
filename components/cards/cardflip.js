@@ -84,5 +84,3 @@ export class cardFlip extends LitElement {
         `
     }
 };
-
-window.customElements.define('card-flip', cardFlip);
